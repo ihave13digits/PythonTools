@@ -46,7 +46,7 @@ Optional Keyword Arguments:
 
 '''
 
-Keyword Argyments:
+Keyword Arguments:
 
     txt: string
         String of text to encrypt or decrypt
