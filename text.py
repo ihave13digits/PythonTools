@@ -37,7 +37,8 @@ Keyword Arguments:
 Optional Keyword Arguments:
 
     char: string
-        Specific character to see the count of (note: if char is left empty, Text.show_chars() will return the entire dictionary of character values)
+        Specific character to see the count of (note: if char is left empty,
+            Text.show_chars() will return the entire dictionary of character values)
 
 '''
 
