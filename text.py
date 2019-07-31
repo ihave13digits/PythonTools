@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# TextStreaming by digits version 0.6 2018.12
+# TextStreaming by digits version 0.6 2019.7
 
 import textwrap
 
