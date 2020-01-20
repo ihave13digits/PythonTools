@@ -1,12 +1,20 @@
 #!/usr/bin/python3
 
-from os import system
-from sys import stdin
+import os, sys
+
+class Key:
+
+    def __init__(self):
+        self.esc = ""
 
 class Event:
 
-    def get_key():
-        system("stty raw -echo")
-        c = stdin.read(1)
-        system("stty -raw echo")
-        return c
+    def get_key(f=str):
+        os.system("stty raw -echo")
+        c = sys.stdin.read(1)
+        os.system("stty -raw echo")
+        return f(c)
+
+    def get_text():
+        txt = input()
+        return txt
